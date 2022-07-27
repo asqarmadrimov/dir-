@@ -1,0 +1,123 @@
+.intro__inner {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  text-align: center;
+  background-image: url('../../img/Bg.png');
+  background-repeat: no-repeat;
+  background-position: bottom ;
+  background-size: 100%;
+}
+
+.intro__title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #22343D;
+}
+
+.intro__list {
+  margin-top: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.intro__item {
+  text-align: left;
+  max-width: 240px;
+}
+
+.intro__item + .intro__item {
+  margin-left: 80px;
+}
+
+.intro__item-title {
+  margin-top: 30px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #22343D;
+}
+
+.intro__item-text {
+  margin-top: 13px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+}
+
+.intro__button {
+  margin-top: 60px;
+  padding: 15px 33px;
+  border: none;
+  background: #02897A;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.intro__button:hover {
+  background-color: white;
+  color: #02897A;
+  border: solid 1px #02897A;
+}
+
+.intro__button:active {
+  color: #22343D;
+}
+
+@media only screen and (max-width: 770px) {
+  .intro__list {
+    margin-top: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .intro__item {
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .intro__item + .intro__item {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .intro__item-title {
+    margin-top: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #22343D;
+  }
+
+  .intro__list {
+    margin-top: 30px;
+  }
+
+  .intro__item {
+    text-align: center;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+}

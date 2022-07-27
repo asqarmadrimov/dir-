@@ -1,0 +1,134 @@
+.quick__hero {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-image: url('../../img/Bg\ \(1\).png');
+  background-repeat: no-repeat;
+  background-position: top bottom;
+  background-size: 100%;
+}
+.quick__hero {
+}
+
+.quick__title {
+  max-width: 540px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.quick__title-text {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #22343D;
+}
+
+.quick__text {
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+}
+
+.quick__content {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.quick-text-1 {
+  margin-left: 30px;
+}
+
+.quick-text-2 {
+  margin-right: 30px;
+}
+
+.quick-text-3 {
+  margin-right: 30px;
+}
+
+.quick-text-4 {
+  margin-left: 30px;
+}
+
+.quick__content-1 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.content-1 {
+  display: flex;
+  align-items: center;
+}
+
+.quick-botton {
+  display: block;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px 30px;
+  color: white;
+  border: none;
+  background: #02897A;
+  border-radius: 4px;
+}
+
+.quick-botton:hover {
+  background-color: white;
+  color: #02897A;
+  border: solid 1px #02897A;
+}
+
+@media only screen and (max-width:750px) {
+  .quick-img {
+    width: 75px;
+    height: 75px;
+  }
+
+  .quick-text-1 {
+    margin-left: 20px;
+  }
+  
+  .quick-text-2 {
+    margin-right: 20px;
+  }
+  
+  .quick-text-3 {
+    margin-right: 20px;
+  }
+  
+  .quick-text-4 {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width:650px) {
+  .quick__content-1 {
+    display: block;
+  }
+  .content-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .quick-text-1 {
+    margin-left: 10px;
+  }
+  
+  .quick-text-2 {
+    margin-right: 10px;
+  }
+  
+  .quick-text-3 {
+    margin-right: 10px;
+  }
+  
+  .quick-text-4 {
+    margin-left: 10px;
+  }
+}
